@@ -4,13 +4,10 @@ import random
 import neat
 import os
 
-comando="cd C:/Users/rubens/Programs/python/ua/arrumando"
-os.system(comando)
-
 pygame.init()
 
 tela = pygame.display.set_mode((600,400))
-pygame.display.set_caption('name')
+pygame.display.set_caption('ia')
 
 class per:
     pers=None
